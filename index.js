@@ -1,6 +1,5 @@
 let hscore = document.getElementById("homescore")
 let gscore = document.getElementById("guestscore")
-
 function homeone(){
     hscore.textContent = parseInt(hscore.textContent) +1
 }
@@ -22,4 +21,10 @@ function guesttwo(){
 
 function guestthree(){
     gscore.textContent = parseInt(gscore.textContent) +3
+}
+
+// reset the game scores
+function reset(){
+    hscore.textContent = 0
+    gscore.textContent = 0
 }

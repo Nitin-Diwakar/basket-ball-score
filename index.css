@@ -44,3 +44,14 @@ button {
     color: white;
     cursor: pointer;
 }
+
+#newgame {
+    text-align: center;
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+    margin-bottom: 20px;
+    background-color: rgb(202, 89, 255);
+    border: 3px solid rgb(202, 89, 255);
+    padding: 0 5px 0 5px;
+    border-radius: 4px; 
+}
